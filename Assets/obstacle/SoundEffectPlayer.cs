@@ -7,6 +7,7 @@ public class SoundEffectPlayer : MonoBehaviour
 {
     [SerializeField]
     AudioClip audioClip;
+    [SerializeField]
     AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,7 @@ public class SoundEffectPlayer : MonoBehaviour
 
     public void PlayEffect()
     {
-        audioSource.PlayOneShot(audioClip);
+        Debug.Log("Sound played");
+        UniversalAudioSource.audioSource.PlayOneShot(audioClip, 1f);
     }
 }

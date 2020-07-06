@@ -82,6 +82,7 @@
     <Compile Include="Assets\obstacle\FallTrigger.cs" />
     <Compile Include="Assets\obstacle\Obstacle.cs" />
     <Compile Include="Assets\obstacle\SoundEffectPlayer.cs" />
+    <Compile Include="Assets\obstacle\UniversalAudioSource.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Unity/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
